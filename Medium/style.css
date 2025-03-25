@@ -1,0 +1,175 @@
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+header img {
+    width: 30%;
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+.headerButton {
+    display: flex;
+    background-color: white;
+    border: none;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.headerButtons {
+    display: flex;
+    width: 60%;
+    height: 20px;
+    justify-content: right;
+    align-content: space-evenly;
+    margin-right: 200px;
+}
+
+.membership {
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.user {
+    border-radius: 50%;
+    background-color: orange;
+    border: none;
+}
+
+
+
+#left {
+    margin-top: 30px;
+    padding-left: 100px;
+    width: 60%;
+    border-right: 1px solid lightgray;
+}
+
+.divLeft {
+    display: flex;
+}
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -70px;
+    width: 40%;
+}
+
+
+#superior {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    width: 50%;
+    padding-top: 60px;
+    padding-left: 120px;
+}
+
+#following {
+    margin-right: 20px;
+    color: grey;
+}
+
+#recommended {
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+
+.icon {
+    width: 25px;
+    height: auto;
+    border-radius: 3px;
+    margin-right: 20px;
+    vertical-align: center;
+}
+
+
+.imgLeft {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imgLeftSide {
+    width: 230px;
+    height: 150px;
+}
+
+
+.imgRight {
+    width: 50px;
+    height: 50px;
+}
+
+.buttonTwitter {
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.later {
+    border: none;
+    text-decoration: underline;
+    color: grey;
+    background-color: white;
+}
+
+#superiorRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 30px;
+}
+
+.topics {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 30px;
+   
+    
+    
+}
+
+.buttonTopics {
+    background-color: lightgray;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none
+}
+
+.person {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.follow {
+    display: flex;
+}
+
+.followButton {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
